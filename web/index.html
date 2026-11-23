@@ -1,232 +1,96 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-     sed -i '/<head>/a \  <meta name="google-site-verification" content="<meta name="google-site-verification" content="d2Jyg3YVUANME2w9e7y-62ycBn0IwVHkrylPXsXyh8I" />" />' web/index.html
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Construcciones SFV | Maestro Constructor y Remodelaciones</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        body {
-            background-color: #f1f5f9;
-            color: #1e293b;
-            line-height: 1.6;
-        }
-        header {
-            background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
-            color: #ffffff;
-            padding: 50px 20px;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 2.4rem;
-            margin-bottom: 10px;
-            letter-spacing: 1px;
-        }
-        header p {
-            font-size: 1.15rem;
-            color: #cbd5e1;
-            max-width: 700px;
-            margin: 0 auto 25px auto;
-        }
-        .barra-contacto-top {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
-        .btn {
-            display: inline-block;
-            padding: 12px 22px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 1rem;
-            transition: opacity 0.2s;
-        }
-        .btn:hover {
-            opacity: 0.9;
-        }
-        .btn-whatsapp {
-            background-color: #16a34a;
-            color: #ffffff;
-        }
-        .btn-llamada {
-            background-color: #0284c7;
-            color: #ffffff;
-        }
-        .btn-correo {
-            background-color: #d97706;
-            color: #ffffff;
-        }
-        .contenedor {
-            max-width: 1000px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-        .titulo-seccion {
-            text-align: center;
-            font-size: 1.8rem;
-            color: #0f172a;
-            margin-bottom: 25px;
-        }
-        .grid-servicios {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-            margin-bottom: 50px;
-        }
-        .tarjeta {
-            background: #ffffff;
-            padding: 25px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-            border-top: 4px solid #1e3a8a;
-        }
-        .tarjeta h3 {
-            margin-bottom: 10px;
-            color: #1e3a8a;
-        }
-        .caja-formulario {
-            background: #ffffff;
-            padding: 35px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            max-width: 650px;
-            margin: 0 auto 40px auto;
-        }
-        .grupo-form {
-            margin-bottom: 18px;
-        }
-        .grupo-form label {
-            display: block;
-            font-weight: bold;
-            margin-bottom: 6px;
-            color: #334155;
-        }
-        .grupo-form input,
-        .grupo-form textarea {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #cbd5e1;
-            border-radius: 6px;
-            font-size: 1rem;
-        }
-        .grupo-form textarea {
-            height: 120px;
-            resize: vertical;
-        }
-        .btn-enviar {
-            width: 100%;
-            background-color: #1e3a8a;
-            color: #ffffff;
-            border: none;
-            padding: 14px;
-            font-size: 1.1rem;
-            font-weight: bold;
-            border-radius: 6px;
-            cursor: pointer;
-        }
-        .btn-enviar:hover {
-            background-color: #172554;
-        }
-        footer {
-            background-color: #0f172a;
-            color: #f8fafc;
-            padding: 40px 20px;
-            text-align: center;
-            margin-top: 50px;
-        }
-        .datos-footer {
-            margin: 20px 0;
-            font-size: 1.1rem;
-            line-height: 2;
-        }
-        .datos-footer a {
-            color: #38bdf8;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .datos-footer a:hover {
-            text-decoration: underline;
-        }
-        .nota-pie {
-            font-size: 0.9rem;
-            color: #94a3b8;
-            margin-top: 20px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="google-site-verification" content="d2Jyg3YVUANME2w9e7y-62ycBn0IwVHkrylPXsXyh8I" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Construcciones SFV | Maestro de Construcción en Santiago</title>
+  <meta name="description" content="Construcciones SFV - Maestro de construcción con 40 años de experiencia en Santiago. Casas desde cero, ampliaciones, cerrajería, radieres, cerámica y gasfitería.">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    body { background-color: #f4f6f9; color: #333; line-height: 1.6; }
+    header { background: linear-gradient(135deg, #1a365d, #2b6cb0); color: white; padding: 2.5rem 1rem; text-align: center; }
+    header h1 { font-size: 2.2rem; margin-bottom: 0.5rem; letter-spacing: 1px; }
+    header p { font-size: 1.1rem; opacity: 0.95; max-width: 650px; margin: 0 auto 1.5rem; }
+    .botones-contacto { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-top: 1rem; }
+    .btn { display: inline-block; padding: 0.8rem 1.4rem; border-radius: 6px; text-decoration: none; font-weight: bold; color: white; transition: opacity 0.2s; }
+    .btn:hover { opacity: 0.9; }
+    .btn-whatsapp { background-color: #25d366; }
+    .btn-llamar { background-color: #ed8936; }
+    .btn-correo { background-color: #4a5568; }
+    main { max-width: 960px; margin: 2rem auto; padding: 0 1rem; }
+    section { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-bottom: 2rem; }
+    h2 { color: #1a365d; border-bottom: 2px solid #2b6cb0; padding-bottom: 0.5rem; margin-bottom: 1.2rem; font-size: 1.5rem; }
+    .servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.2rem; }
+    .servicio-card { background: #edf2f7; padding: 1.2rem; border-radius: 6px; border-left: 4px solid #2b6cb0; }
+    .servicio-card h3 { color: #2d3748; margin-bottom: 0.4rem; font-size: 1.1rem; }
+    .form-group { margin-bottom: 1rem; }
+    label { display: block; font-weight: bold; margin-bottom: 0.4rem; color: #2d3748; }
+    input, textarea { width: 100%; padding: 0.75rem; border: 1px solid #cbd5e0; border-radius: 5px; font-size: 1rem; }
+    button[type="submit"] { background-color: #2b6cb0; color: white; border: none; padding: 0.9rem 1.8rem; font-size: 1rem; font-weight: bold; border-radius: 6px; cursor: pointer; width: 100%; }
+    button[type="submit"]:hover { background-color: #1a365d; }
+    footer { text-align: center; padding: 1.5rem; color: #718096; font-size: 0.9rem; }
+  </style>
 </head>
 <body>
 
-    <header>
-        <h1>CONSTRUCCIONES SFV</h1>
-        <p>Más de 40 años de experiencia en construcción residencial, ampliaciones, estructuras metálicas, gasfitería y terminaciones de calidad en Santiago.</p>
-        <div class="barra-contacto-top">
-            <a href="https://wa.me/56953997609?text=Hola%20Segundo,%20quisiera%20solicitar%20un%20presupuesto%20de%20construcción" target="_blank" class="btn btn-whatsapp">
-                💬 WhatsApp: +56 9 5399 7609
-            </a>
-            <a href="tel:+56953997609" class="btn btn-llamada">
-                📞 Llamar Ahora
-            </a>
-            <a href="mailto:segundocanalessandoval@gmail.com?subject=Cotización%20Construcciones%20SFV" class="btn btn-correo">
-                ✉️ Enviar Correo
-            </a>
-        </div>
-    </header>
+  <header>
+    <h1>CONSTRUCCIONES SFV</h1>
+    <p>40 años de experiencia en construcción residencial, ampliaciones, cerrajería y obras civiles en Santiago y alrededores.</p>
+    <div class="botones-contacto">
+      <a href="https://wa.me/56953997609?text=Hola%20Segundo,%20necesito%20cotizar%20un%20trabajo%20de%20construcci%C3%B3n" target="_blank" class="btn btn-whatsapp">WhatsApp: +56 9 5399 7609</a>
+      <a href="tel:+56953997609" class="btn btn-llamar">Llamar Directo</a>
+      <a href="mailto:segundocanalessandoval@gmail.com" class="btn btn-correo">segundocanalessandoval@gmail.com</a>
+    </div>
+  </header>
 
-    <main class="contenedor">
-        <h2 class="titulo-seccion">Nuestros Servicios</h2>
-        <div class="grid-servicios">
-            <div class="tarjeta">
-                <h3>Obra Gruesa y Ampliaciones</h3>
-                <p>Construcción habitacional hasta 3 pisos, radieres, albañilería, tabiquería y ampliaciones regulares con materiales certificados.</p>
-            </div>
-            <div class="tarjeta">
-                <h3>Terminaciones y Revestimientos</h3>
-                <p>Instalación de pisos y muros cerámicos, porcelanatos, pintura interior y exterior, cielos y remodelación integral de espacios.</p>
-            </div>
-            <div class="tarjeta">
-                <h3>Estructuras Metálicas y Gasfitería</h3>
-                <p>Portones, cobertizos, techumbres, soldadura estructural, instalaciones sanitarias, redes de agua potable y alcantarillado.</p>
-            </div>
+  <main>
+    <section>
+      <h2>Nuestros Servicios</h2>
+      <div class="servicios-grid">
+        <div class="servicio-card">
+          <h3>Construcción y Ampliaciones</h3>
+          <p>Viviendas desde cero hasta tres pisos, segundos pisos, radieres, tabiquería y techumbres.</p>
         </div>
+        <div class="servicio-card">
+          <h3>Cerrajería y Cobertizos</h3>
+          <p>Estructuras metálicas, portones, protecciones, rejas y cobertizos a medida.</p>
+        </div>
+        <div class="servicio-card">
+          <h3>Terminaciones y Cerámica</h3>
+          <p>Instalación de cerámica en pisos y muros de baños y cocinas, pintura interior y exterior.</p>
+        </div>
+        <div class="servicio-card">
+          <h3>Obras Civiles y Gasfitería</h3>
+          <p>Instalaciones sanitarias, alcantarillado, agua potable y reparaciones generales.</p>
+        </div>
+      </div>
+    </section>
 
-        <h2 class="titulo-seccion">Solicite su Presupuesto en Línea</h2>
-        <div class="caja-formulario">
-            <form action="/enviar-contacto" method="POST">
-                <div class="grupo-form">
-                    <label for="nombre">Nombre Completo</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required>
-                </div>
-                <div class="grupo-form">
-                    <label for="correo">Correo Electrónico o Teléfono</label>
-                    <input type="text" id="correo" name="correo" placeholder="Ej: cliente@correo.cl / +56 9 ..." required>
-                </div>
-                <div class="grupo-form">
-                    <label for="mensaje">Detalle del Trabajo a Realizar</label>
-                    <textarea id="mensaje" name="mensaje" placeholder="Describa brevemente qué necesita construir, ampliar o reparar y en qué comuna..." required></textarea>
-                </div>
-                <button type="submit" class="btn-enviar">Enviar Solicitud a Bitácora</button>
-            </form>
+    <section>
+      <h2>Solicita tu Visita en Terreno</h2>
+      <p style="margin-bottom: 1rem;">Evaluamos el terreno en persona antes de entregar presupuesto para garantizar precios justos y sin sorpresas.</p>
+      <form action="https://formsubmit.co/segundocanalessandoval@gmail.com" method="POST">
+        <div class="form-group">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" required placeholder="Ej: Juan Pérez">
         </div>
-    </main>
+        <div class="form-group">
+          <label for="telefono">Teléfono / WhatsApp</label>
+          <input type="tel" id="telefono" name="telefono" required placeholder="Ej: +56 9 1234 5678">
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Detalle del trabajo o ubicación del terreno</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Cuéntanos qué necesitas construir o remodelar y en qué comuna..."></textarea>
+        </div>
+        <button type="submit">Enviar Solicitud</button>
+      </form>
+    </section>
+  </main>
 
-    <footer>
-        <h3>CONSTRUCCIONES SFV</h3>
-        <p>Maestro Constructor: Segundo Lucas Canales Sandoval</p>
-        <div class="datos-footer">
-            <div>📞 Teléfono / WhatsApp: <a href="tel:+56953997609">+56 9 5399 7609</a></div>
-            <div>💬 Chat Directo: <a href="https://wa.me/56953997609?text=Hola%20Segundo,%20necesito%20cotizar%20un%20trabajo" target="_blank">Abrir WhatsApp</a></div>
-            <div>✉️ Correo Electrónico: <a href="mailto:segundocanalessandoval@gmail.com">segundocanalessandoval@gmail.com</a></div>
-        </div>
-        <p class="nota-pie">Atención en Puente Alto y toda la Región Metropolitana, Santiago de Chile.</p>
-    </footer>
+  <footer>
+    <p>&copy; 2026 Construcciones SFV - Segundo Lucas Canales Sandoval | Santiago, Chile.</p>
+  </footer>
 
 </body>
 </html>
