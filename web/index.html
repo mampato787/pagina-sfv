@@ -30,6 +30,9 @@
     button[type="submit"] { background-color: #2b6cb0; color: white; border: none; padding: 0.9rem 1.8rem; font-size: 1rem; font-weight: bold; border-radius: 6px; cursor: pointer; width: 100%; }
     button[type="submit"]:hover { background-color: #1a365d; }
     footer { text-align: center; padding: 1.5rem; color: #718096; font-size: 0.9rem; }
+      .servicio-card.destacado { background: #ebf8ff; border-left: 4px solid #1a365d; }
+    .img-card { width: 100%; height: 180px; object-fit: cover; border-radius: 4px; margin-bottom: 0.5rem; background-color: #cbd5e0; }
+    .etiqueta { display: inline-block; background: #2b6cb0; color: white; font-size: 0.75rem; padding: 0.15rem 0.5rem; border-radius: 4px; margin-bottom: 0.5rem; font-weight: bold; width: fit-content; }
   </style>
 </head>
 <body>
@@ -45,6 +48,25 @@
   </header>
 
   <main>
+    <section>
+      <h2>Proyectos Residenciales Destacados</h2>
+      <p style="margin-bottom: 1.2rem; color: #4a5568;">Desarrollamos proyectos a medida adaptados a terrenos planos o en pendiente, respetando la privacidad de cada cliente.</p>
+      <div class="servicios-grid">
+        <div class="servicio-card destacado">
+          <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=600&q=80" alt="Chalet de 2 pisos en parcela o cerro" class="img-card">
+          <span class="etiqueta">PROPUESTA DE DISEÑO</span>
+          <h3>Chalet Residencial a Medida</h3>
+          <p>Construcción de chalet de 1 o 2 niveles ideal para parcelas o terrenos en cerro. Incluye fundaciones reforzadas, estructura sólida, vigas a la vista, terraza techada y aislación térmica completa.</p>
+        </div>
+        <div class="servicio-card destacado">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80" alt="Mansión residencial de 3 pisos" class="img-card">
+          <span class="etiqueta">GRAN ENVERGADURA</span>
+          <h3>Mansión Residencial de 3 Pisos</h3>
+          <p>Edificación completa desde cero hasta tres niveles. Obra gruesa con losas de hormigón armado, escaleras estructurales, distribución de amplios espacios, terrazas panorámicas y terminaciones finas.</p>
+        </div>
+      </div>
+    </section>
+
     <section>
       <h2>Nuestros Servicios</h2>
       <div class="servicios-grid">
